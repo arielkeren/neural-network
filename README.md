@@ -16,15 +16,28 @@ There are a few specialized models available for faster implementation for gener
 * **Binary Classifier**<br>
   Used for binary classification problems - classification into 2 different classes.<br>
   Initialized with:
-  1. Output layer of 1 neuron with sigmoid activation and xavier initialization
+  1. Output layer of 1 neuron with sigmoid activation and Xavier initialization.
   2. Binary cross entropy.
 * **Classifier**<br>
   Used for classification problems.<br> 
   Initialized with:
-  1. Output layer with softmax activation and xavier initialization
+  1. Output layer with softmax activation and Xavier initialization.
   2. Categorical cross entropy.
 * **Perceptron**<br>
-  Used for binary classification - classification into 2 different classes.<br>
+  Used for simple classification or regression problems.<br>
+  Allows only a single layer to mimic a perceptron.<br>
   Initialized with:
-  1. Output layer with softmax activation and xavier initialization
-  2. Categorical cross entropy.
+  1. Output layer of 1 neuron.
+* **Linear Regression**<br>
+  Used for simple regression problems.<br>
+  Allows only a single layer to mimic a perceptron.<br>
+  Initialized with:
+  1. Output layer of 1 neuron with linear activation and zeros initialization.
+  2. Mean squared error.
+* **Logistic Regression**<br>
+  Used for simple binary classification problems.<br>
+  Allows only a single layer to mimic a perceptron.<br>
+  Initialized with:
+  1. Output layer of 1 neuron with sigmoid activation and Xavier initialization.
+  2. Binary cross entropy.
+
