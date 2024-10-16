@@ -2,7 +2,7 @@
 
 A customizable feedforward neural network.
 
-## How It Works
+## Features
 ### Overview
 The neural network is highly customizable, allowing to piece together a network, designed for a specific use case.<br>
 Properties that can be modified:
